@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlowState-V</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/bargraph.css">
+    <link rel="stylesheet" href="./styles/media-q.css">
+    <!-- <link rel="stylesheet" href="./styles/normalize.css"> -->
+    <script type="text/javascript" src="./scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./scripts/d3/d3.v3.min.js"></script>
+  </head>
+  <body>
+    <div id="banner" class="banner-container">
+      <div class="title-container">
+        <p class="banner-title"><span>Flow</span>State</p>
+        <!-- <p class="banner-title"><span>Flow</span>State</p> -->
+        <p class="tag-line">visualizing flow data</p>
+        <!-- <p><span class="banner-title">FlowState</span><br><span class="tag-line">visualizing flow data</span></p> -->
+      </div>
+    </div>
+    <div class="intro">
+      <div class="intro-div">
+        <h1>What is FlowState?</h1>
+        <p>Flow State is an application that presents flow logs in an intuitive and elegant manner so that insights and information from a large body of data can be quickly assimilated. It is currently designed to be used with the Maxicom2 Central Control, by Rain Bird, where Maxicom does not currently have sufficient data visibility. Maxicom2 is a smart irrigation management system that uses weather data and flow monitoring technology to control, manage, and optimize commercial irrigation systems. Maxicom collects minute-by-minute flow information daily from any number of sites. Understanding these flow logs in a timely and efficient matter is essential to maintaining the proper operation of large irrigation systems. While Maxicom does have a rudimentary flow report, it is difficult to navigate, not intuitive, does not present data across multiple sites, and lastly, not mobile (meaning reports cannot be made available on mobile devices in any fashion). The FlowState app is intented to be presented on mobile platforms and makes visualizing data across multiple sites a one-click process.
+        </p>
+      </div>
+    </div>
+    <div class="main">
+      <!-- <div class="aside"></div> -->
+      <div class="graph">
+        <div class="nav">
+          <div class="space">
+            <select class="test">
+              <option id="site" value="site1">Site 1</option>
+            </select>
+          </div>
+          <div class="space">
+            <select id="date" class="test">
+              <option value="may1">May 1st</option>
+            </select>
+          </div>
+          <div class="space">
+            <select id="time" class="test">
+              <option value="12am">12am</option>
+              <option value="1am">1am</option>
+            </select>
+          </div>
+          <input class="test submit" type="submit" value="Go" onclick="urlData()">
+          <div id="reset"></div>
+        </div>
+        <div class="svg-container">
+          <p>Flow Data</p>
+        </div>
+      </div>
+      <!-- <div class="svg-container" style="height: 500px; width: 100%;">
+
+      </div> -->
+      <div id="footer">
+        <img id="logo" src="./images/flowstate--logo.jpg" alt="">
+        <p>Copyright &copy; 2017 ・ site design by Josh Holladay ・ FlowState, All rights reserved</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="./scripts/bargraph.js"></script>
+  </body>
+</html>

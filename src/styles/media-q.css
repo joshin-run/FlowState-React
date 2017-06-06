@@ -1,0 +1,89 @@
+@media screen and ( max-width: 3000px ) {
+  .title-container {
+    /*background-color: red;*/
+    height:60vh;
+    width: 100vw;
+    /*width: 80vw;*/
+  }
+  .banner-title {
+    font-size: 15em;
+  }
+  .tag-line {
+    font-size: 7.5em;
+  }
+}
+
+@media screen and ( max-width: 1620px ) {
+  .title-container {
+    /*background-color: orange;*/
+    height:50vh;
+    width: 100vw;
+    /*width: 70vw;*/
+  }
+  .banner-title {
+    font-size: 10em;
+  }
+  .tag-line {
+    font-size: 6.25em;
+  }
+}
+
+@media( max-width: 1160px ) {
+  .title-container {
+    /*background-color: yellow;*/
+    height:40vh;
+    width: 100vw;
+    /*width: 60vw;*/
+  }
+  .banner-title {
+    font-size: 8em;
+  }
+  .tag-line {
+    font-size: 5em;
+  }
+}
+
+@media( max-width: 880px ) {
+  .title-container {
+    /*background-color: purple;*/
+    height:32vh;
+    width: 100vw;
+    /*width: 60vw;*/
+  }
+  .banner-title {
+    font-size: 6em;
+  }
+  .tag-line {
+    font-size: 3em;
+  }
+}
+
+@media( max-width: 550px ) {
+  .title-container {
+    /*background-color: blue;*/
+    height:30vh;
+    width: 100vw;
+    /*width: 60vw;*/
+  }
+  .banner-title {
+    font-size: 4.5em;
+  }
+  .tag-line {
+    font-size: 2.25em;
+  }
+}
+
+@media( max-width: 380px ) {
+  .title-container {
+    /*background-color: brown;*/
+    height:20vh;
+    width: 100vw;
+    /*width: 60vw;*/
+  }
+  .banner-title {
+    font-size: 4em;
+  }
+  .tag-line {
+    font-size: 1.5em;
+  }
+}
