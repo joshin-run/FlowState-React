@@ -1,5 +1,6 @@
-// @import colors
-//
-body {
-  background-image: url(../images/grass2.jpg)
-}
+@import "banner";
+@import "colors";
+@import "footer";
+@import "nav";
+@import "structure";
+@import "media-queries"
