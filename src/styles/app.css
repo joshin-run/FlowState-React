@@ -47,6 +47,12 @@ body {
   margin: 0;
   padding: 0; }
 
+h1 {
+  background-color: #fff;
+  height: 300px;
+  width: 600px;
+  opacity: 0.8; }
+
 @media screen and (max-width: 3000px) {
   .title-container {
     /*background-color: red;*/
@@ -119,5 +125,29 @@ body {
 
   .tag-line {
     font-size: 1.5em; } }
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100vw;
+  background-color: #3994C0;
+  color: #fff;
+  font-family: 'arial';
+  opacity: 0.9; }
+
+.intro p {
+  text-align: justify; }
+
+h1 {
+  color: #fff;
+  font-family: 'arial'; }
+
+.intro-div {
+  padding: 1em 6em 1em 6em;
+  margin: 0; }
 
 /*# sourceMappingURL=app.css.map */

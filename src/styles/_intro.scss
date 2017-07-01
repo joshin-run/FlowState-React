@@ -1,0 +1,25 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100vw;
+  background-color: #3994C0;
+  color: #fff;
+  font-family: 'arial';
+  opacity: 0.9;
+}
+.intro p {
+  text-align: justify;
+}
+h1 {
+  color: #fff;
+  font-family: 'arial';
+}
+.intro-div {
+  padding: 1em 6em 1em 6em;
+  margin: 0;
+}
