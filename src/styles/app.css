@@ -47,12 +47,6 @@ body {
   margin: 0;
   padding: 0; }
 
-h1 {
-  background-color: #fff;
-  height: 300px;
-  width: 600px;
-  opacity: 0.8; }
-
 @media screen and (max-width: 3000px) {
   .title-container {
     /*background-color: red;*/
@@ -149,5 +143,8 @@ h1 {
 .intro-div {
   padding: 1em 6em 1em 6em;
   margin: 0; }
+
+.heading {
+  font-size: 2em; }
 
 /*# sourceMappingURL=app.css.map */
